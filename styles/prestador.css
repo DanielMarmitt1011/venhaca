@@ -1,0 +1,32 @@
+.prestador_titulo {
+    margin: 1em;
+    text-align: center;
+    font-family: var(--fonte-logo);
+    font-size: 24px;
+}
+
+.numeros_mercado_titulo, .numeros_tecnologia_titulo, .numeros_facilidade_titulo, .numeros_proposta_titulo {
+    margin: 1em;
+    text-align: center;
+    font-family: var(--fonte-cursiva);
+    font-size: 24px;
+    color: var(--azul-escuro);
+}
+
+.numeros_mercado, .numeros_tecnologia, .numeros_facilidade, .numeros_proposta {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1em;
+}
+
+.numeros_mercado_foto, .numeros_tecnologia_foto, .numeros_facilidade_foto, .numeros_proposta_foto {
+    width: 200px;
+    height: 160px;
+    display: none;
+}
+
+.numeros_mercado_texto, .numeros_tecnologia_texto, .numeros_facilidade_texto, .numeros_proposta_texto {
+    text-align: justify;
+    font-family: var(--fonte-cursiva);
+    font-size: 14px;
+}

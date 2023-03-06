@@ -1,0 +1,37 @@
+.propaganda_titulo {
+    text-align: center;
+    font-family: var(--fonte-cursiva);
+    font-size: 32px;
+}
+
+.busca {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+.busca input[type="search"] {
+    width: 350px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid var(--preto);
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 1em;
+    font-family: var(--fonte-cursiva);
+}
+  
+.busca button[type="submit"] {
+    width: 350px;
+    background-color: var(--preto);
+    color: var(--branco);
+    border: 1px solid var(--preto);
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: var(--fonte-cursiva);
+}
+

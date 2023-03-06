@@ -1,0 +1,19 @@
+@import url("styles/header.css");
+@import url("styles/propaganda.css");
+@import url("styles/fotos.css");
+@import url("styles/passos.css");
+@import url("styles/app.css");
+@import url("styles/prestador.css");
+@import url("styles/cliente.css");
+@import url("styles/construção.css");
+
+:root {
+    --fonte-logo: "Anton";
+    --fonte-cursiva: "Kanit";
+    --azul-claro: #00FFFF;
+    --azul-escuro: #0000CD;
+    --azul-mais-escuro: #191970;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --laranja: #FF8C00;
+}

@@ -1,0 +1,17 @@
+.construção {
+    display: grid;
+    justify-content: center;
+}
+
+.construção_foto {
+    width: 250px;
+    height: 200px;
+}
+
+.construção_titulo {
+    font-family: var(--fonte-logo);
+    font-size: 24px;
+    text-align: center;
+    color: var(--laranja);
+    margin-top: 2em;
+}

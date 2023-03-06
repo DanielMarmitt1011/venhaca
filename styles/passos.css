@@ -1,0 +1,57 @@
+.passos {
+    text-align: center;
+}
+
+.passos_principal {
+    margin: 2em 0 1em 0;
+    font-family: var(--fonte-cursiva);
+    font-size: 32px;
+}
+
+.passos_cards {
+    display: grid;
+    justify-content: center;
+}
+
+.passos_foto {
+    border: 1px transparent var(--preto);
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    margin-top: 1em;
+}
+
+.passos_info {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+.passos_nr {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-left: 1em;
+}
+
+.passos_titulo {
+    font-family: var(--fonte-cursiva);
+    font-size: 20px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding-top: 15px
+}
+
+.passos_texto {
+    font-family: var(--fonte-cursiva);
+    font-size: 16px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 0.5em;
+}
